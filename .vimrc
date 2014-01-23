@@ -93,4 +93,9 @@ let g:pymode_syntax_indent_errors = g:pymode_syntax_all
 let g:pymode_syntax_space_errors = g:pymode_syntax_all
 
 " " Don't autofold code
+
 let g:pymode_folding = 0
+
+" " Key Binding to Run Code
+let g:pymode_run = 1
+let g:pymode_run_bind = '<leader>r'
